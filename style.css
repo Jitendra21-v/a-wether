@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+*{  font-family:  'Montserrat';
+    box-sizing: border-box;
+}
+body{
+    background-color: lightcyan;
+    background-repeat: no-repeat;
+    /*background-image: url(/img.jpg);*/
+    text-align: center;
+    background-size:100% 145% ;
+    background-attachment: fixed;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+}
+#form{
+    margin-top: 10%;
+    
+}
+input{
+    border: 1px solid;
+    padding: 1rem;
+    border-radius: 25px;
+    background-color: white;
+    min-width: 500px;
+
+}
+input{
+    outline: none;
+}
+@media only screen and (max-width: 800px) {
+    body {
+        background-size:100% 150% ;
+    }
+  }
+.weather h2{
+    margin-bottom: 0px;
+}
+.weather{
+    display: flex;
+    flex-direction:column ;
+    margin-top: 10px;
+    font-size: 2rem;
+    text-align: center;
+}
+.weather img{
+    transform: scale(1);
+}
+#foot{
+    position: relative;
+    size:2rem;
+    margin-top: 10%;
+}
+#foot a{
+    text-decoration: none;
+}
+#foot i{
+    font-size: 1.5rem;
+    color:black;   
+}
